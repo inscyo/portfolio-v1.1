@@ -1,0 +1,143 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+@font-face{
+    font-family: 'opensans-bold';
+    src: url('../font/OpenSans-Bold.ttf');
+}
+@font-face{
+    font-family: 'opensans-bolditalic';
+    src: url('../font/OpenSans-BoldItalic.ttf');
+}
+@font-face{
+    font-family: 'opensans-extrabold';
+    src: url('../font/OpenSans-ExtraBold.ttf');
+}
+@font-face{
+    font-family: 'openSans-extrabolditalic';
+    src: url('../font/OpenSans-ExtraBoldItalic.ttf');
+}
+@font-face{
+    font-family: 'opensans-italic';
+    src: url('../font/OpenSans-Italic.ttf');
+}
+@font-face{
+    font-family: 'opensans-light';
+    src: url('../font/OpenSans-Light.ttf');
+}
+@font-face{
+    font-family: 'opensans-lightitalic';
+    src: url('../font/OpenSans-LightItalic.ttf');
+}
+@font-face{
+    font-family: 'opensans-regular';
+    src: url('../font/OpenSans-Regular.ttf');
+}
+@font-face{
+    font-family: 'opensans-semibold';
+    src: url('../font/OpenSans-Semibold.ttf');
+}
+@font-face{
+    font-family: 'opensans-semibolditalic';
+    src: url('../font/OpenSans-SemiboldItalic.ttf');
+}
+@font-face{
+    font-family: 'Wil2ghan';
+    src: url('../font/Wil2ghan.ttf');
+}
+@font-face{
+    font-family: 'Wil2ghat';
+    src: url('../font/Wil2ghat.ttf');
+}
+@font-face{
+    font-family: 'Wil2ghbd';
+    src: url('../font/Wil2ghbd.ttf');
+}
+@font-face{
+    font-family: 'Wil2ghbi';
+    src: url('../font/Wil2ghbi.ttf');
+}
+@font-face{
+    font-family: 'BoosterNextFY-Black';
+    src: url('../font/BoosterNextFY-Black.otf');
+}
+@font-face{
+    font-family: 'BoosterNextFY-Bold';
+    src: url('../font/BoosterNextFY-Bold.otf');
+}
+@font-face{
+    font-family: 'BoosterNextFY-Light';
+    src: url('../font/BoosterNextFY-Light.otf');
+}
+@font-face{
+    font-family: 'BoosterNextFY-Medium';
+    src: url('../font/BoosterNextFY-Medium.otf');
+}
+@font-face{
+    font-family: 'BoosterNextFY-Regular';
+    src: url('../font/BoosterNextFY-Regular.otf');
+}
+@font-face{
+    font-family: 'BoosterNextFY-Thin';
+    src: url('../font/BoosterNextFY-Thin.otf');
+}
+:root {
+    --BoosterNextFY-Black: 'BoosterNextFY-Black';
+    --BoosterNextFY-Bold: 'BoosterNextFY-Bold';
+    --BoosterNextFY-Light: 'BoosterNextFY-Light';
+    --BoosterNextFY-Medium: 'BoosterNextFY-Medium';
+    --BoosterNextFY-Regular: 'BoosterNextFY-Regular';
+    --BoosterNextFY-Thin: 'BoosterNextFY-Thin';
+    --white: #fff !important;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --nav: #3b4044;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --font-family-roboto: 'Roboto', sans-serif;
+    --work-sans: 'Work Sans', sans-serif;
+    --ibn-flex: 'IBM Plex Sans', sans-serif;
+    --nunito-sans: 'Nunito Sans', sans-serif;
+    --sans-semibold: 'opensans-semibold';
+    --sans-bold: 'opensans-bold';
+    --sans-bolditalic: 'opensans-bolditalic';
+    --sans-extrabold: 'opensans-extrabold';
+    --sans-extrabolditalic: 'openSans-extrabolditalic';
+    --sans-italic: 'opensans-italic';
+    --sans-light: 'opensans-light';
+    --sans-lightitalic: 'opensans-lightitalic';
+    --sans-regular: 'opensans-regular';
+    --sans-semibolditalic: 'opensans-semibolditalic';
+    --sans-pro: 'Source Sans Pro', sans-serif;
+    --Wil2ghan: 'Wil2ghan';
+    --Wil2ghat: 'Wil2ghat';
+    --Wil2ghbd: 'Wil2ghbd';
+    --Wil2ghbi: 'Wil2ghbi';
+    --LeagueSpartan-Bold: 'League Spartan','Helvetica','Arial',sans-serif, inherit;
+    --leaguespartan-bold: 'leaguespartan-bold';
+}
